@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Print On Console</title>
+</head>
+
+<body>
+    <script>
+        console.log("KitaBisa.com QA Engineer Test");
+
+        var intA = [1, 2, 3, 4, 5, 6, 11, 13, 2];
+        var intB = [6, 7, 8, 9, 10];
+        Array.prototype.diff = function (arr2) {
+            var ret = [];
+            this.sort();
+            arr2.sort();
+            for (var i = 0; i < this.length; i += 1) {
+                if (arr2.indexOf(this[i]) > -1) {
+                    ret.push(this[i]);
+                }
+            }
+            return ret;
+        };
+
+        var v = console.log(intA.diff(intB));
+    </script>
+</body>
+
+</html>

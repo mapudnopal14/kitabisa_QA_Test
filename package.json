@@ -1,0 +1,24 @@
+{
+  "name": "kitabisatest",
+  "version": "1.0.0",
+  "description": "KitaBisa.com QA Engineer Test",
+  "main": "index.js",
+  "scripts": {
+    "open-cypress": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapudnopal14/kitabisa_QA_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapudnopal14/kitabisa_QA_Test/issues"
+  },
+  "homepage": "https://github.com/mapudnopal14/kitabisa_QA_Test#readme",
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "cypress-xpath": "^1.4.0"
+  }
+}
